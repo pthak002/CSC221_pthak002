@@ -18,7 +18,7 @@ clock = pygame.time.Clock()
 
 # Load the player's ship image and resize it
 ship_image = pygame.image.load("images/ship.png")
-ship_image = pygame.transform.scale(ship_image, (70, 70))  # Resize to 40x40 pixels
+ship_image = pygame.transform.scale(ship_image, (70, 70)) 
 ship_rect = ship_image.get_rect()
 ship_y = screen_height // 2 - ship_rect.height // 2
 ship_speed = 5
